@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.text-white {
+    color: #fff;
+}
+
 hr {
     border-color: #{{ site.data.template.color.primary }};
     border-width: 3px;
@@ -545,10 +549,6 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
-}
-
-.contact-details {
-    margin-top: 50px;
 }
 
 @media(min-width:768px) {
