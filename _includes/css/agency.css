@@ -6,7 +6,7 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Merriweather,"Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -16,6 +16,12 @@ body {
 
 .text-primary {
     color: #{{ site.data.template.color.primary }};
+}
+
+hr {
+    border-color: #{{ site.data.template.color.primary }};
+    border-width: 3px;
+    max-width: 50px;
 }
 
 p {
@@ -176,7 +182,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: "Blinker", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -287,16 +293,14 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
 header .intro-text .intro-heading {
     margin-bottom: 25px;
-    text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: 200;
     line-height: 50px;
 }
 
@@ -310,17 +314,15 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
-        text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
+        font-size: 24px;
+        font-weight: 200;
+        line-height: 30px;
     }
 }
 
@@ -543,6 +545,10 @@ section h3.section-subheading {
 .timeline .timeline-body>p,
 .timeline .timeline-body>ul {
     margin-bottom: 0;
+}
+
+.contact-details {
+    margin-top: 50px;
 }
 
 @media(min-width:768px) {
